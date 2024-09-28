@@ -1,4 +1,4 @@
-# Hall Twitch Scouter
+# Hall Mic Master
 This script automatically sends notifications to specific players based on their roles during a match. The script checks the game state periodically and sends a message at the defined time.
 ## Prerequisites
 - Python 3.8 or above
