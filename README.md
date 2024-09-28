@@ -6,7 +6,7 @@ This script automatically sends notifications to specific players based on their
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/hall-mic-master.git
+    git clone https://github.com/hackletloose/hall-mic-master/hall-mic-master.git
     cd hall-mic-master
     ```
 2. Install the required dependencies:
@@ -25,7 +25,7 @@ This script automatically sends notifications to specific players based on their
 ## Usage
 1. Run the script:
     ```bash
-    python bpt.py
+    python mic-master.py
     ```
 The script will monitor the game state and send notifications based on the configuration.
 ## Configuration
