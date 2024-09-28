@@ -1,5 +1,13 @@
 # Hall Mic Master
 This script automatically sends notifications to specific players based on their roles during a match. The script checks the game state periodically and sends a message at the defined time.
+
+ToDo:
+Execute the following commands after downloading:
+1. Copy the `.env.dist` file to `.env` and enter your values.
+2. Run the command `pip install python-dotenv`.
+3. Copy `mic-master.service.dist` to `/etc/systemd/system/mic-master.service`
+4. Activate and start the service with `sudo systemctl enable mic-master.service` and `sudo systemctl start mic-master.service`.
+
 ## Prerequisites
 - Python 3.8 or above
 - `pip` (Python package installer)
